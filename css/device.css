@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* devices support */
+.deviceCNTR {
+	border-bottom:solid 1px #d7d7d7;
+	padding-bottom:10px;
+	margin-bottom:5px;
+}
+.deviceCNTR .deviceLft {
+	text-align:center;
+	padding-top:25px;
+}
+.deviceLft img {
+	width:70%; height:auto;
+}
+.deviceLft div.publishDate {
+	padding-top:20px; font-size:16px; letter-spacing:2px; color:#999999;
+}
+.deviceCNTR .deviceRgt {
+	text-align:left;
+	font-size:15px;
+	letter-spacing:2px;
+}
+.deviceRgt h3 {
+	color:#f07812;
+	font-size:20px;
+	margin-top:25px;
+	margin-bottom:6px;
+}
+.deviceRgt h3 img {
+	width:5%; height:auto;
+}
+.deviceRgt p {
+	margin-bottom:40px;
+}
+
+
+@media screen and (min-width : 320px) {
+	.deviceLft img {
+		width:105%; height:auto;
+	}
+	.deviceLft div.publishDate {
+		font-size:14px;
+		letter-spacing:3px;
+	}
+	.deviceRgt h3 img {
+		width:22%; height:auto;
+	}
+}
+
+@media screen and (min-width : 480px) {
+	.deviceLft img {
+		width:70%; height:auto;
+	}
+	.deviceLft div.publishDate {
+		font-size:15px;
+		letter-spacing:2px;
+	}
+	.deviceRgt h3 img {
+		width:13%; height:auto;
+	}
+}
+
+@media screen and (min-width : 768px) {
+	.deviceLft img {
+		width:70%; height:auto;
+	}
+	.deviceLft div.publishDate {
+		font-size:16px;
+		letter-spacing:2px;
+	}
+	.deviceRgt h3 img {
+		width:5%; height:auto;
+	}
+}

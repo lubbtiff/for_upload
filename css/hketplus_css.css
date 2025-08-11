@@ -1,0 +1,1416 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* ---------- Global ---------- */
+body { font-family: Microsoft Yahei, "微軟正黑體", Microsoft JhengHei, Helvetica Neue, Verdana, Arial, LiHei Pro Medium, Helvetica, sans-serif; }
+img { border:0px; }
+
+.navbarNewSet {
+	background-color:#730c06;
+	border:0px;
+}
+.navbar-inverse .navbar-nav>li {
+	width:25%;
+	text-align:center;
+	font-size:17px;
+	letter-spacing:2px;
+}
+.navbar-inverse .navbar-nav>li>a { color:#ffffff; }
+.navbar-inverse .navbar-nav>li>a:visited { color:#ffffff; }
+.navbar-inverse .navbar-nav>li>a:hover { color:#fbad05; }
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-top:solid 1px #fbad05; }
+.navbar-inverse .navbar-toggle { border-color:#730c06; }
+.navbar-inverse .navbar-toggle .icon-bar { background-color:#ffffff; }
+.navbar-inverse .navbar-toggle:hover { background-color:#730c06; }
+
+.h3New {
+	font-size:30px;
+	font-weight:normal;
+	color:#dc4401;
+	letter-spacing:3px;
+	margin:0px;
+	padding:30px 0px 0px 0px;
+}
+.h3New span {
+	letter-spacing:normal;
+	font-size:29px;
+	vertical-align:text-bottom;
+}
+.marginBttm30 {
+	margin-bottom:30px;
+}
+.SubHeaderBox {
+	padding:0px 0px 5px 0px;
+}
+.SubHeaderBox .SubHeader {
+	font-size:17px;
+	letter-spacing:2px;
+	font-weight:bold;
+	margin-left:15px;
+}
+.SubHeaderBox .SubHeader span {
+	letter-spacing:0px;
+}
+.LeadInTxt {
+	font-size:17px;
+	letter-spacing:1px;
+	padding:20px 0px 10px 0px;
+}
+.LeadInTxt a {
+	color:#f87500;
+}
+.LeadInTxt a:hover {
+	color:#faac64;
+	text-decoration:none;
+}
+.StepCNTR {
+	clear:both;
+	padding:30px 0px 20px 0px;
+}
+.StepBox {
+	display:inline-block;
+	background-color:#ebebeb;
+	padding:5px 0px 5px 15px;
+}
+/*.StepBox .StepNum {
+	float:left;
+	font-size:25px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	color:#dc4401;
+	padding:0px 14px 0px 10px;
+	border-right:solid 2px #ffffff;
+}*/
+.StepBox .StepNumNEW {
+	float:left;
+	font-size:27px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	line-height:25px;
+	text-align:center;
+	margin-top:3px;
+	padding:0px;
+}
+.StepBox .StepNumCircleOn {
+	border:solid 2px #ffffff;
+	border-radius:20px;
+	background-color:#dc4401;
+	width:32px;
+	height:32px;
+	display:inline-block;
+	margin-right:3px;
+	padding-top:3px;
+	color:#ffffff;
+}
+.StepBox .StepNumCircleOff {
+	border:solid 2px #dddddd;
+	border-radius:20px;
+	background-color:#cccccc;
+	width:32px;
+	height:32px;
+	display:inline-block;
+	margin-right:3px;
+	padding-top:3px;
+	color:#dddddd;
+}
+.StepBox .StepName {
+	float:left;
+	font-size:17px;
+	letter-spacing:2px;
+	padding:5px 20px 0px 10px;
+}
+.DescriptTxt {
+	clear:both;
+	padding-top:30px;
+	font-size:13px;
+}
+.GeneralTxt {
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:18px;
+	padding-bottom:10px;
+}
+.MssgTxt {
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:25px;
+	padding-top:30px;
+}
+.MssgTxt div {
+	padding-bottom:15px;
+}
+.MssgTxt .BttnBox {
+	border:solid 1px #b7b7b7;
+	background-color:#ebebeb;
+	font-size:14px;
+	color:#000000;
+	width:120px;
+	text-align:center;
+	padding:0px 5px;
+	border-radius:5px;
+	cursor:pointer;
+}
+.MssgTxt .failTxtCNTR {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:center;
+}
+.MssgTxt .failReasonCNTR {
+	clear:both;
+	width:100%;
+	border:solid 1px #CCCCCC;
+	padding:10px;
+	text-align:center;
+}
+.failReasonCNTR .failReasonTxt {
+	padding:25px 0px;
+	color:#ff7900;
+	font-weight:bold;
+}
+.failReasonCNTR .failOdrNumCNTR {
+	margin-bottom:20px;
+}
+.failOdrNumCNTR span {
+	margin:0 12px;
+}
+.BttnCNTR {
+	clear:both;
+	padding:20px 15px;
+}
+.BttnCNTR ul {
+	font-size:20px;
+	padding:30px 0px;
+}
+.BttnCNTR li a {
+	border-radius:7px;
+	padding:8px 15px;
+}
+.BttnCNTR li.otherBtn {
+	float:left;
+	margin-left:10px;
+}
+.contemailCNTR {
+	background-color:#e1e1e1;
+	padding:25px 10px;
+	font-size:16px;
+	line-height:25px;
+	letter-spacing:1px;
+	text-align:left;
+}
+.contemailCNTR div {
+	display:inline-block;
+}
+.contemailCNTR .iconVaule {
+	font-size:19px;
+	vertical-align:text-bottom;
+	padding:0px 4px;
+}
+.contemailCNTR .stroke {
+	padding:0px 10px;
+}
+.footerCNTR {
+	background-color:#f5f5f5;
+	width:100%;
+	height:auto;
+	padding:20px 0px;
+	margin:0px;
+	text-align:center;
+	color:#a1a1a1;
+	display:block;
+}
+.footerLink {
+	padding:0px;
+	margin:0px;
+}
+.footerLink ul {
+	list-style:none;
+	font-size:14px;
+	letter-spacing:1px;
+	margin:0px auto;
+	padding:0px 10px;
+}
+.footerLink ul li {
+	float:left;
+	width:auto;
+	margin-bottom:10px;
+	padding:0px 12px 0px 12px;
+	border-right:solid 1px #cccccc;
+}
+.footerLink ul li:last-child {
+	border-right:none;
+}
+/* ---------- Global end ---------- */
+
+/* ---------- top navbar ---------- */
+/*.topNavbarCNTR {
+	width:100%;
+	height:40px;
+	position:fixed;
+	top:0;
+	background-color:#730c00;
+	z-index:9999;
+	padding:0px;
+	margin:auto;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:2px;
+	line-height:18px;
+}
+.topNavbarCNTR a:link { color:#FFFFFF; text-decoration:none; }
+.topNavbarCNTR a:visited { color:#FFFFFF; text-decoration:none; }
+.topNavbarCNTR a:hover { color:#ffbd00; text-decoration:none; }
+.topNavbarCNTR .navbarBox {
+	padding-top:9px;
+	text-align:center;
+	border-right:solid 0px #FFFFFF;
+}*/
+/* ---------- top navbar end ---------- */
+
+/* ---------- top header ---------- */
+.topHeaderRow {
+	width:100%;
+	height:300px;
+	background:url('https://plus.hket.com/res/image/plus/rwplus/hketplus_banner_1920x450px.jpg') top center no-repeat;
+	background-size:cover;
+	margin-top:50px;
+}
+.topHeaderRow .widthCtrl {
+	max-width:976px;
+	margin:0 auto;
+}
+.allLogoCNTR {
+	position:relative;
+	top:40px;
+	left:15px;
+}
+.allLogoCNTR .hketplusLogoCNTR {
+	margin:0px;
+	width:160px;
+}
+.allLogoCNTR .hketplusLogoCNTR img {
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+.allLogoCNTR .headerTxt {
+	font-size:40px;
+	color:#ffffff;
+	letter-spacing:2px;
+	margin-top:5px;
+}
+.xsLogoCNTR {
+	padding:55px 0px 0px 0px;
+}
+.xsLogoCNTR ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.xsLogoCNTR ul li {
+	float:left;
+	width:45px;
+	margin-right:15px;
+}
+.topDecCNTR {
+	margin:0 auto;
+	position:relative;
+	top:10px;
+	right:0px;
+	max-width:500px;
+}
+.topDecCNTR img {
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+/* ---------- top header end ---------- */
+
+/* ---------- traingle ---------- */
+.arrowPositionGrey {
+	position:relative;
+}
+.arrowPositionGrey .arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 23px solid transparent;
+  border-bottom: 23px solid transparent;
+  border-left: 23px solid #ebebeb;
+  position:absolute;
+  top:-5px;
+}
+.arrowPositionGrey .rightSub {
+	left:211px;
+}
+.arrowPositionGrey .rightSub4step {
+	left:246px;
+}
+.arrowPositionGrey .rightSub5step {
+	left:281px;
+}
+.arrowPositionGrey .rightReg {
+	left:176px;
+}
+.arrowPositionRed {
+	position:relative;
+}
+.arrowPositionRed .arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #e43a00;
+  position:absolute;
+  top:5px;
+  left:0px;
+}
+/* ---------- traingle end ---------- */
+
+/* ---------- form ---------- */
+.InputPreview {
+	padding-top:5px;
+	font-size:16px;
+}
+.help-blockPlus {
+	margin-bottom:0px;
+	margin-top:3px;
+	font-size:13px;
+	letter-spacing:1px;
+}
+.iconOK {
+	font-size:15px;
+	color:#009933;
+	margin-right:15px;
+}
+.iconError {
+	font-size:15px;
+	color:#ff5f12;
+	margin-right:15px;
+}
+.RadioBttnCNTR {
+	padding-top:6px;
+}
+.RadioBttnCNTR .RadioLable {
+	margin:0px;
+	margin-right:15px;
+	padding:0px 15px 0px 20px;
+}
+.RadioBttnCNTR .RadioInput {
+	margin-top:4px;
+	margin-left:7px;
+}
+.btnRenew {
+	font-size:20px;
+	color:#337ab7;
+	letter-spacing:1px;
+	border-radius:7px;
+	border:solid 1px #dddddd;
+	background-color:#FFFFFF;
+}
+.btnRenew:hover {
+	color:#2a527c;
+	background-color:#eeeeee;
+}
+/*
+.btn-group-lg>.btn, .btn-lg {
+	padding:10px 20px;
+	width:100%;
+	background-color:#ff7700;
+	color:#ffffff;
+}
+.btn-group-lg>.btn, .btn-lg:hover {
+	background-color:#faac64;
+	color:#ffffff;
+}
+*/
+.loginGroup a {
+	color:#f87500;
+}
+.loginGroup a:hover{
+	color:#faac64;
+	text-decoration:none;
+}
+/* ---------- form end ---------- */
+
+/* ---------- Subscribe plan ---------- */
+.PriceTableCNTR {
+	padding-left:15px;
+}
+.PriceTable {
+	margin-bottom:5px;
+}
+.PlanCNTR {
+	background-color:#ffffff;
+	border:solid 1px #d7d7d7;
+	border-radius:10px;
+	padding:10px 0px;
+	text-align:start;
+	width:auto;
+}
+.PlanCNTR .PlanOptionRow {
+	width:95%;
+	border-bottom:solid 1px #d7d7d7;
+	padding:8px 0px;
+	font-size:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.PlanOptionRow .ourProduct {
+	font-size:16px;
+	font-weight:bold;
+	vertical-align:text-top;
+}
+.PlanOptionRow .nonSelective {
+	color:#d7d7d7;
+}
+.PlanCNTR .SelectedOptRow {
+	width:95%;
+	border-bottom:solid 1px #d7d7d7;
+	padding:15px 0px;
+	font-size:13px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.PlanCNTR .DiscountRow {
+	width:95%;
+	border-bottom:0px;
+	padding:10px 0px 0px 0px;
+	color:#ff0000;
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.PlanCNTR .PriceRow {
+	width:95%;
+	border-bottom:solid 0px #d7d7d7;
+	padding:8px 0px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.PriceRow .PriceTxt {
+	font-size:25px;
+	font-weight:bold;
+}
+.PriceRow .CurrencyTxt {
+	font-size:15px;
+	vertical-align:text-bottom;
+}
+.ContFormSubj {
+	margin-bottom:0px;
+}
+/* ---------- Subscribe plan + ---------- */
+.planIntro {
+	padding-top:20px;
+}
+.planIntro span {
+	font-weight:bold;
+}
+.planSelectCNTR {
+	margin:10px 0px 13px 0px;
+	font-size:15px;
+}
+.planSelectCNTR span {
+	font-size:12px;
+	margin-left:3px;
+}
+.planSelectCNTR .prodName {
+	font-weight:bold;
+}
+.planSUPtxt {
+	margin:15px 0px; padding-left:25px; font-size:12px;
+}
+/* ---------- Subscribe plan + end ---------- */
+/* ---------- plan table ---------- */
+.planTD {
+	font-size:15px;
+	font-weight:bold;
+	letter-spacing:2px;
+	padding:10px 12px;
+	background-color:#f1f1f1;
+}
+.radioTD {
+	width:80%;
+	padding:0px 15px;
+	margin:0px;
+}
+.radioCNTR {
+	margin:0px;
+	padding:0px 0px;
+}
+.discountTD {
+	width:7%;
+	color:#ff0000;
+	padding-top:4px;
+}
+.priceTD {
+	width:13%;
+	font-weight:bold;
+	padding-top:7px;
+	line-height:10px;
+}
+.priceTD p:after {
+	content:" (港幣)";
+	color:#cacaca;
+	font-size:12px;
+}
+/* ---------- plan table end ---------- */
+/* ---------- Subscribe plan end ---------- */
+
+/* ---------- effective date ---------- */
+.effDateCNTR {
+	border:solid 1px #d7d7d7;
+	border-radius:10px;
+	width:auto;
+	margin-bottom:10px;
+	clear:both;
+}
+.effDateCNTR .dateOptnRow {
+	padding:15px 0px;
+}
+.effDateCNTR .selectedProduct {
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	padding-bottom:20px;
+}
+.effDateCNTR .dateOptn {
+	font-size:16px;
+	letter-spacing:1px;
+	margin-bottom:8px;
+}
+.effDateCNTR .rightColm03 {
+	padding:0px;
+	margin:0px;
+	margin-left:7px;
+}
+.effDateCNTR .spanTxt {
+	font-size:13px;
+	color:#acacac;
+	letter-spacing:1px;
+	line-height:13px;
+}
+/* ---------- effective date end ---------- */
+
+/* ---------- payment method box ---------- */
+.payBoxTtl {
+	font-size:16px;
+	letter-spacing:1px;
+	padding-top:8px;
+	padding-left:25px;
+}
+.payBoxMethod {
+	font-size:16px;
+	letter-spacing:1px;
+	margin-left:-30px;
+}
+/* ---------- payment method box end ---------- */
+
+/* ---------- confirm order ---------- */
+.cfmProduct {
+	border-bottom:solid 1px #d7d7d7;
+}
+.cfmProduct .cfmPdtTitle {}
+.cfmProduct .cfmPdtSupport {}
+.cfmProduct .cfmEfftDate {}
+.cfmProduct .cfmPdtTitle ul {
+	list-style:disc;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#000000;
+	margin:0px;
+	padding-left:20px;
+}
+.cfmProduct .cfmPdtTitle ul li {
+	border:none;
+	margin:2px;
+	padding-left:0px;
+}
+.cfmProduct .cfmPdtSupport ul {
+	list-style:none;
+	margin:0px;
+	padding:0px 0px 0px 22px;
+	font-size:12px;
+	color:#999999;
+}
+.cfmProduct .cfmPdtSupport ul li {
+	float:left;
+	padding:0px 10px;
+	margin-right:5px;
+	margin-bottom:3px;
+	border:solid 1px #d7d7d7;
+	background-color:#ebebeb;
+}
+.cfmProduct .cfmEfftDate ul {
+	list-style:none;
+	margin:0px;
+	padding:15px 0px 0px 22px;
+	font-size:15px;
+	letter-spacing:1px;
+}
+.cfmProduct .cfmEfftDate ul li {
+	float:left;
+	margin:0px;
+	padding:0px;
+	text-decoration:underline;
+}
+.cfmProduct .cfmEfftDate ul li.dateTitle {
+	font-weight:bold;
+	color:#ff6300;
+	text-decoration:none;
+	margin-right:5px;
+}
+.cfmPayCNTR {
+	border-bottom:solid 1px #d7d7d7;
+	background-color:#FFCC00;
+}
+.cfmPayCNTR ul {
+	list-style:none;
+	font-size:16px;
+	letter-spacing:1px;
+	margin:0px;
+	padding:0px 20px 0px 20px;
+}
+.cfmPayCNTR ul li {
+	float:left;
+	margin-right:15px;
+	margin-bottom:3px;
+}
+.cfmMoneyCNTR {
+	padding:15px 10px 20px 10px;
+	text-align:center;
+	font-weight:bold;
+}
+.cfmMoneyCNTR .cfmDiscount {
+	font-size:15px;
+	padding-right:7px;
+	color:#FF0000;
+}
+.cfmMoneyCNTR .cfmPrice {
+	font-size:23px;
+}
+.cfmMoneyCNTR .cfmCurrency {
+	font-size:14px;
+}
+.cfmInfoRow {
+	padding:0px 15px 0px 15px;
+}
+.cfmInfoRow table th.normalTH {
+	width:15%;
+}
+.cfmInfoRow table th.normalTHtop {
+	width:15%;
+	border:0px;
+}
+.cfmInfoRow table td.normalTD {
+	width:85%;
+}
+.cfmInfoRow table td.normalTDtop {
+	width:85%;
+	border:0px;
+}
+/* ---------- confirm order end ---------- */
+
+/* ---------- order history table Style A ---------- */
+.ordHistCNTR-A {
+	margin-top:25px;
+	margin-bottom:50px;
+	font-size:13px;
+}
+.ordHistCNTR-A .ordHistTable {
+	margin-bottom:0px;
+	background-color:#f3f3f3;
+}
+.ordHistTable .ordNumCNTR {
+	margin:0px;
+	padding:10px 15px;
+	font-size:15px;
+	border-bottom:solid 1px #000000;
+	background-color:#ffc100;
+}
+.ordNumCNTR .ordNumTtl {
+	float:left;
+	margin-right:20px;
+	font-weight:bold;
+}
+.ordNumCNTR .ordNum {
+	float:left;
+}
+.ordHistTable .ordInfoCNTR {
+	padding:10px 15px;
+	border-right:solid 1px #000;
+	height:auto;
+}
+.ordHistTable .ordInfoCNTRLast {
+	padding:10px 15px;
+	border-right:0px;
+}
+.ordInfoCNTR .ordInfoTtl {
+	font-weight:bold;
+}
+.ordInfoCNTR .ordTime {
+	display:inline-block;
+	padding-left:10px;
+	color:#959595;
+}
+.ordHistTable .ordPayCNTR {
+	padding:10px 15px;
+	font-size:13px;
+	border-top:solid 1px #000000;
+	border-bottom:solid 1px #000000;
+}
+.ordPayCNTR .ordPayTtl {
+	float:left;
+	margin-right:25px;
+	font-weight:bold;
+}
+.ordPayCNTR .ordPayMethod {
+	float:left;
+}
+.ordHistTable th.ordDTLcolA {
+	width:50%;
+}
+.ordHistTable th.ordDTLcolB {
+	width:35%;
+}
+.ordHistTable th.ordDTLcolC {
+	width:15%;
+}
+.ordInfoCNTR .ordInfo {}
+.noMarginPad {
+	padding:0px;
+	margin:0px;
+}
+/* ---------- order history table Style A end ---------- */
+
+/* ---------- order history table Style B ---------- */
+.ordHistCNTR-B {
+	margin-top:25px;
+	font-size:13px;
+}
+.ordHistCNTR-B table {
+	margin-bottom:0px;
+}
+.ordHistCNTR-B table td {
+	word-break:keep-all;
+}
+.ordHistCNTR-B table tr.trHeader {
+	background-color:#ffc100;
+}
+.ordHistCNTR-B table tr.trStriped01 {
+	background-color:#ffffff;
+}
+.ordHistCNTR-B table tr.trStriped02 {
+	background-color:#f3f3f3;
+}
+/* ---------- order history table Style B end ---------- */
+
+/* ---------- order history table Style Collapse ---------- */
+.ordHistCNTR-C{font-size:14px;}
+.ordHistCNTR-C .statmentCNTR{border:0; border-radius:0px; box-shadow:none;}
+.stmtHeading{display:block; position:relative; padding:0; border:0; border-radius:0px; background-color:#ffc100;}
+.stmtHeading:hover, .stmtHeading:focus{text-decoration:none; outline:0;}
+.stmtHeading:before{content:""; position:absolute; height:100%; border-left:10px solid #c5c5c5;}
+.stmtHeading:after{content:"\f077"; position:absolute; right:15px; top:50%; transform:translateY(-50%); font-family:"Font Awesome 5 Free"; font-weight:900;}
+.stmtHeading.collapsed:after{content:"\f078";}
+.stmtHeading .panel-title{padding:8px 40px 8px 20px; border:1px solid #c5c5c5; font-size:14px; font-weight:bold;}
+.stmtHeading .panel-title span{padding-right:10px; line-height:20px;}
+.stmtHeading .panel-title .order-no{padding-right:0; font-family:Arial;}
+.stmtHeading .panel-title .status{display:block; padding-right:0; font-weight:500;}
+.statmentCNTR .stmtBody{padding:0px; border:0px !important;}
+.stmtBody .tableCNTR{margin:0; border:1px solid #c5c5c5; border-top:0; background-color:#f3f3f3; letter-spacing:1px;}
+.stmtBody .tableCNTR table{margin-bottom:0;}
+.stmtBody .tableCNTR td{border-top:0;}
+.stmtBody .tableCNTR [id^="order-status-"]{min-width:150px;}
+.tableCNTR .topCell{border-right:1px solid #c5c5c5;}
+.tableCNTR .topCell, .tableCNTR .topCellLast, .tableCNTR .payCell{border-bottom:1px solid #c5c5c5;}
+.tableCNTR .topCell span.timeDisplay{padding-left:15px; color:#c2c2c2;}
+.tableCNTR .topCellHd, .tableCNTR span.payHeader{padding-right:15px; font-weight:bold;}
+.tableCNTR .boldHeader{border-bottom:1px dotted #c5c5c5; font-weight:bold;}
+/* ---------- order history table Style Collapse end ---------- */
+
+/* ---------- T & C box ---------- */
+.tcTxtCNTR {
+	padding:0px 15px;
+	clear:both;
+}
+.tcTxtCNTR .tcTxtBox {
+	border:solid 1px #b7b7b7;
+	width:100%;
+	height:200px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	padding:10px 20px;
+	font-size:13px;
+	line-height:20px;
+	letter-spacing:1px;
+	clear:both;
+}
+.tcTxtCNTR .tcTxtBox p {
+	margin-bottom:20px;
+}
+/* ---------- T & C box end ---------- */
+
+
+/* ---------- coupon ---------- */
+.couponStartCNTR {
+	font-size:16px;
+	letter-spacing:1px;
+	margin-top:15px;
+	margin-bottom:40px;
+}
+.couponStartCNTR ol {
+	padding-left:40px;
+}
+.couponStartCNTR ol li {
+	padding:2px 0px;
+}
+.traninfoTD {
+	border-bottom:solid 1px #dddddd;
+	padding:7px 13px 7px 5px;
+	font-size:15px;
+}
+.traninfoTD:last-child {
+	padding:7px 5px 7px 5px;
+}
+/* ---------- coupon end ---------- */
+
+/* ---------- migrate ---------- */
+.migrateStepBox {
+	background-color:#FFF;
+	margin-top:6px;
+	margin-bottom:20px;
+}
+.migrateCircle {
+	border:solid 2px #ffffff;
+	border-radius:20px;
+	background-color:#dc4401;
+	width:32px;
+	height:32px;
+	display:inline-block;
+	margin-right:3px;
+	padding-top:3px;
+	color:#ffffff;
+	float:left;
+}
+.migrateNum {
+	font-size:23px;
+	padding-left:8px;
+	margin-top:-6px;
+}
+.migrateStep {
+	font-weight:bold;
+	letter-spacing:1px;
+	padding:5px 0px 0px 40px;
+}
+.migrateTD {
+	padding:10px 8px;
+	font-size:15px;
+}
+.mgrtOgAcct table th {
+	padding:5px;
+}
+.mgrtOgAcct table td {
+	padding:5px;
+}
+.mgrtOgAcctForm {
+	clear:both;
+	padding-top:30px;
+}
+.mgrtOgAcctHd {
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+.mgrtOgAcctColm {
+	margin:0px;
+	padding:0px;
+	padding-right:10px;
+}
+.mgrtOgAcctTtl {
+	font-weight:normal;
+}
+.mgrtOgAcctSubmit {
+	padding-top:25px;
+}
+/* ---------- migrate end ---------- */
+
+
+@media screen and (min-width : 320px) {
+	.navbar-inverse .navbar-nav>li {
+		width:100%;
+		text-align:left;
+		font-size:17px;
+		letter-spacing:2px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-top:solid 0px #fbad05; }
+	.h3New {
+		text-align:center;
+	}
+	.h3New span {
+		display:block;
+		line-height:38px;
+	}
+	.topNavbarCNTR {
+		width:100%;
+		height:40px;
+		position:fixed;
+		top:0;
+		background-color:#730c00;
+		z-index:9999;
+		padding:0px;
+		margin:auto;
+		color:#FFFFFF;
+		font-size:23px;
+		font-weight:normal;
+		letter-spacing:0px;
+		line-height:0px;
+	}
+	.topNavbarCNTR span.topNavbarIcon { display:block; }
+	.topNavbarCNTR span.topNavbarTxt { display:none; }
+	.topHeaderRow .hketplusLogoCNTR img {
+		width:160px;
+		margin:0 auto;
+	}
+	.allLogoCNTR {
+		position:relative;
+		top:25px;
+		left:0px;
+	}
+	.allLogoCNTR .hketplusLogoCNTR {
+		margin:0px auto;
+		width:120px;
+	}
+	.allLogoCNTR .headerTxt {
+		font-size:20px;
+		color:#ffffff;
+		letter-spacing:2px;
+		margin-top:5px;
+		text-align:center;
+	}
+	.xsLogoCNTR {
+		display:none;
+		padding:55px 0px 0px 0px;
+	}
+	.topDecCNTR {
+		margin:0 auto;
+		position:relative;
+		top:25px;
+		right:0px;
+		max-width:300px;
+	}
+	.RadioBttnCNTR {
+		padding-top:0px;
+	}
+	.PriceTable {
+		width:98%;
+	}
+	.ContFormSubj {
+		margin-top:15px;
+	}
+	
+	.radioTD { width:70%; }
+	.discountTD { width:15%; }
+	.priceTD { width:15%; line-height:14px; }
+	
+	.effDateCNTR .middleLine {
+		border-right:0px;
+	}
+	.effDateCNTR .rightColm01 {
+		padding:0px;
+		margin:0px;
+	}
+	.effDateCNTR .rightColm02 {
+		padding:0px;
+		margin:0px;
+		margin-left:20px;
+	}
+	.payBoxTtl {
+		padding-left:15px;
+	}
+	.payBoxMethod {
+		margin-left:0px;
+		margin-top:-1px;
+	}
+	.payDollarIcon img {
+		width:26%;
+		height:auto;
+		padding-left:13px;
+	}
+	.cfmInfoRow table th.normalTH {
+		width:30%;
+	}
+	.cfmInfoRow table th.normalTHtop {
+		width:30%;
+	}
+	.cfmInfoRow table td.normalTD {
+		width:70%;
+		font-size:13px;
+	}
+	.cfmInfoRow table td.normalTDtop {
+		width:70%;
+		font-size:13px;
+	}
+	.contemailCNTR {
+		padding:25px;
+		text-align:left;
+	}
+	.contemailCNTR div {
+		display:block;
+	}
+	.ordInfoCNTR .ordTime {
+		display:block;
+		padding-left:0px;
+	}
+	.BttnCNTR li.otherBtn {
+		float:none;
+		margin-left:0px;
+	}
+	.mgrtOgAcctSubmit {
+		padding-top:5px;
+		margin-left:-14px;
+	}
+}
+@media screen and (min-width : 480px) {
+	.navbar-inverse .navbar-nav>li {
+		width:100%;
+		text-align:left;
+		font-size:17px;
+		letter-spacing:2px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-top:solid 0px #fbad05; }
+	.h3New {
+		text-align:center;
+	}
+	.h3New span {
+		display:block;
+		line-height:38px;
+	}
+	.topNavbarCNTR {
+		width:100%;
+		height:40px;
+		position:fixed;
+		top:0;
+		background-color:#730c00;
+		z-index:9999;
+		padding:0px;
+		margin:auto;
+		color:#FFFFFF;
+		font-size:16px;
+		font-weight:bold;
+		letter-spacing:2px;
+		line-height:18px;
+	}
+	.topNavbarCNTR span.topNavbarIcon { display:inline; }
+	.topNavbarCNTR span.topNavbarTxt { display:inline; }
+	.topHeaderRow .hketplusLogoCNTR img {
+		width:140px;
+		margin:0 auto;
+	}
+	.allLogoCNTR {
+		position:relative;
+		top:22px;
+		left:0px;
+	}
+	.allLogoCNTR .hketplusLogoCNTR {
+		margin:0px auto;
+		width:140px;
+	}
+	.allLogoCNTR .headerTxt {
+		font-size:25px;
+		color:#ffffff;
+		letter-spacing:2px;
+		margin-top:7px;
+		text-align:center;
+	}
+	.xsLogoCNTR {
+		display:none;
+	}
+	.topDecCNTR {
+		margin:0 auto;
+		position:relative;
+		top:23px;
+		right:0px;
+		max-width:300px;
+	}
+	.RadioBttnCNTR {
+		padding-top:0px;
+	}
+	.PriceTable {
+		width:70%;
+	}
+	.ContFormSubj {
+		margin-top:15px;
+	}
+	
+	.radioTD { width:71%; }
+	.discountTD { width:10%; }
+	.priceTD { width:19%; line-height:10px; }
+	
+	.effDateCNTR .middleLine {
+		border-right:0px;
+	}
+	.effDateCNTR .rightColm01 {
+		padding:0px;
+		margin:0px;
+	}
+	.effDateCNTR .rightColm02 {
+		padding:0px;
+		margin:0px;
+		margin-left:20px;
+	}
+	.payBoxTtl {
+		padding-left:15px;
+	}
+	.payBoxMethod {
+		margin-left:0px;
+		margin-top:-9px;
+	}
+	.payDollarIcon img {
+		width:15%;
+		height:auto;
+		padding-left:10px;
+	}
+	.cfmInfoRow table th.normalTH {
+		width:20%;
+		font-size:15px;
+	}
+	.cfmInfoRow table th.normalTHtop {
+		width:20%;
+		font-size:15px;
+	}
+	.cfmInfoRow table td.normalTD {
+		width:80%;
+		font-size:15px;
+	}
+	.cfmInfoRow table td.normalTDtop {
+		width:80%;
+		font-size:15px;
+	}
+	.contemailCNTR {
+		padding:25px;
+		text-align:center;
+	}
+	.contemailCNTR div {
+		display:inline-block;
+	}
+	.ordInfoCNTR .ordTime {
+		display:block;
+		padding-left:0px;
+	}
+	.BttnCNTR li.otherBtn {
+		float:left;
+		margin-left:10px;
+	}
+	.mgrtOgAcctSubmit {
+		padding-top:5px;
+		margin-left:-14px;
+	}
+	/* order history table Style Collapse */
+	.stmtHeading .panel-title{font-size:15px;}
+	.stmtHeading .panel-title .status{float:right;}
+}
+@media screen and (min-width : 768px) {
+	.navbar-inverse .navbar-nav>li {
+		width:25%;
+		text-align:center;
+		font-size:17px;
+		letter-spacing:2px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-top:solid 0px #fbad05; }
+	.h3New {
+		text-align:left;
+	}
+	.h3New span {
+		display:inline;
+		line-height:normal;
+	}
+	.topHeaderRow .hketplusLogoCNTR img {
+		width:170px;
+		margin:0 auto;
+	}
+	.allLogoCNTR {
+		position:relative;
+		top:40px;
+		left:0px;
+	}
+	.allLogoCNTR .hketplusLogoCNTR {
+		margin:0px;
+		width:160px;
+	}
+	.allLogoCNTR .headerTxt {
+		font-size:24px;
+		color:#ffffff;
+		letter-spacing:2px;
+		margin-top:5px;
+		text-align:left;
+	}
+	.xsLogoCNTR {
+		display:block;
+		padding:45px 0px 0px 0px;
+	}
+	.topDecCNTR {
+		margin:0 auto;
+		position:relative;
+		top:45px;
+		right:0px;
+		max-width:400px;
+	}
+	.RadioBttnCNTR {
+		padding-top:5px;
+	}
+	.PriceTable {
+		width:50%;
+	}
+	.ContFormSubj {
+		margin-top:0px;
+	}
+	
+	.radioTD { width:75%; }
+	.discountTD { width:10%; }
+	.priceTD { width:15%; line-height:14px; }
+	
+	.effDateCNTR .middleLine {
+		border-right:solid 1px #000000;
+	}
+	.effDateCNTR .rightColm01 {
+		padding:0px;
+		padding-left:15px;
+		margin:0px;
+	}
+	.effDateCNTR .rightColm02 {
+		padding:0px;
+		margin:0px;
+		margin-left:0px;
+	}
+	.payBoxTtl {
+		padding-left:16px;
+	}
+	.payBoxMethod {
+		margin-left:-15px;
+		padding-top:5px;
+		margin-top:-12px;
+	}
+	.payDollarIcon img {
+		width:10%;
+		height:auto;
+		padding-left:0px;
+	}
+	.cfmInfoRow table th.normalTH {
+		width:15%;
+	}
+	.cfmInfoRow table th.normalTHtop {
+		width:15%;
+	}
+	.cfmInfoRow table td.normalTD {
+		width:85%;
+	}
+	.cfmInfoRow table td.normalTDtop {
+		width:85%;
+	}
+	.contemailCNTR {
+		padding:35px;
+		text-align:center;
+	}
+	.contemailCNTR div {
+		display:inline-block;
+	}
+	.ordInfoCNTR .ordTime {
+		display:inline-block;
+		padding-left:10px;
+	}
+	.BttnCNTR li.otherBtn {
+		float:left;
+		margin-left:10px;
+	}
+	.mgrtOgAcctSubmit {
+		padding-top:25px;
+		margin-left:-14px;
+	}
+}
+@media screen and (min-width : 992px) {
+	.container { max-width:980px; }
+	.navbar-inverse .navbar-nav>li {
+		width:25%;
+		text-align:center;
+		font-size:17px;
+		letter-spacing:2px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-top:solid 0px #fbad05; }
+	.allLogoCNTR .hketplusLogoCNTR {
+		margin:0px;
+		width:160px;
+	}
+	.allLogoCNTR {
+		position:relative;
+		top:40px;
+		left:0px;
+	}
+	.allLogoCNTR .headerTxt {
+		font-size:33px;
+		color:#ffffff;
+		letter-spacing:2px;
+		margin-top:5px;
+		text-align:left;
+	}
+	.xsLogoCNTR {
+		display:block;
+		padding:55px 0px 0px 0px;
+	}
+	.topDecCNTR {
+		margin:0 auto;
+		position:relative;
+		top:10px;
+		right:0px;
+		max-width:500px;
+	}
+	
+	.radioTD { width:80%; }
+	.discountTD { width:9%; }
+	.priceTD { width:11%; line-height:10px; }
+	
+	.effDateCNTR .rightColm01 {
+		padding:0px;
+		padding-left:15px;
+		margin:0px;
+	}
+	.effDateCNTR .rightColm02 {
+		padding:0px;
+		margin:0px;
+		margin-left:-25px;
+	}
+	.payBoxTtl {
+		padding-left:25px;
+	}
+	.payBoxMethod {
+		margin-left:-40px;
+		padding-top:0px;
+		margin-top:-13px;
+	}
+	.contemailCNTR {
+		padding:35px;
+		text-align:center;
+	}
+	.contemailCNTR div {
+		display:inline-block;
+	}
+	.ordInfoCNTR .ordTime {
+		display:inline-block;
+		padding-left:10px;
+	}
+	.BttnCNTR li.otherBtn {
+		float:left;
+		margin-left:10px;
+	}
+	.mgrtOgAcctSubmit {
+		padding-top:25px;
+		margin-left:-14px;
+	}
+}
